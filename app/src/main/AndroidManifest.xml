@@ -10,14 +10,21 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity
-                android:name=".MainActivity"
-                android:label="@string/app_name"
-                android:theme="@style/AppTheme.NoActionBar">
+                android:name=".activities.base.SplashActivity"
+                android:launchMode="singleInstance"
+                android:theme="@style/AppTheme.Launcher">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
+        </activity>
+        <activity
+                android:name=".activities.base.home.DashboardActivity"
+                android:label="@string/title_activity_dashboard"
+                android:theme="@style/AppTheme.NoActionBar">
         </activity>
     </application>
 

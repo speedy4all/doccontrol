@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Doc Control</string>
+    <string name="action_settings">Setari</string>
+    <string name="nav_header_desc">Titlu</string>
+    <string name="nav_header_subtitle">test@test.ro</string>
+    <string name="nav_header_title">Android studio</string>
+    <string name="navigation_drawer_close">Inchide meniul</string>
+    <string name="navigation_drawer_open">Deschide meniul</string>
+    <string name="exit_message">Apasa BACK din nou pentru a inchide aplicatia</string>
+    <string name="dashboard">Dashboard</string>
+</resources>
