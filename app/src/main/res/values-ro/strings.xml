@@ -8,5 +8,8 @@
     <string name="navigation_drawer_close">Inchide meniul</string>
     <string name="navigation_drawer_open">Deschide meniul</string>
     <string name="exit_message">Apasa BACK din nou pentru a inchide aplicatia</string>
+    <string name="title_activity_dashboard">ActivitateDashboard</string>
     <string name="dashboard">Dashboard</string>
+    <string name="doc_profile">Profil Doctor</string>
+    <string name="title_activity_doc_profile">ActivitateProfilDoctor</string>
 </resources>

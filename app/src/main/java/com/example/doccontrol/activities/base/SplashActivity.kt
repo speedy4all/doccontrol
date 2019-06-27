@@ -1,12 +1,10 @@
 package com.example.doccontrol.activities.base
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.example.doccontrol.R
-import com.example.doccontrol.activities.base.home.DashboardActivity
+import com.example.doccontrol.activities.base.home.DoctorDetailsActivity
 import com.google.android.gms.common.GoogleApiAvailability
-import io.reactivex.android.schedulers.AndroidSchedulers
-import io.reactivex.schedulers.Schedulers
 import org.jetbrains.anko.intentFor
 
 class SplashActivity : AppCompatActivity() {
@@ -21,7 +19,7 @@ class SplashActivity : AppCompatActivity() {
         routeToAppropriatePage()
     }
     private fun routeToAppropriatePage() {
-        startActivity(intentFor<DashboardActivity>())
+        startActivity(intentFor<DoctorDetailsActivity>())
         finish()
     }
 }
