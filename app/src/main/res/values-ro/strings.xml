@@ -9,4 +9,6 @@
     <string name="navigation_drawer_open">Deschide meniul</string>
     <string name="exit_message">Apasa BACK din nou pentru a inchide aplicatia</string>
     <string name="dashboard">Dashboard</string>
+    <string name="name_label">Nume : </string>
+    <string name="title_activity_dashboard">Dashboard</string>
 </resources>
