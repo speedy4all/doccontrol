@@ -7,4 +7,14 @@
         android:layout_height="match_parent"
         tools:context=".activities.base.SplashActivity">
 
+    <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="157dp"
+            android:layout_marginEnd="127dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="76dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="600dp"/>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
