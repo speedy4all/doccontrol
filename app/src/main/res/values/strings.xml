@@ -11,4 +11,5 @@
     <string name="dashboard">Dashboard</string>
     <string name="doc_profile">Doctor Profile</string>
     <string name="title_activity_doc_profile">DoctorProfileActivity</string>
+    <string name="title_activity_test_current">TestCurrent</string>
 </resources>

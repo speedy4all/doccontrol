@@ -11,29 +11,40 @@
         android:layout_height="match_parent"
         tools:context=".activities.base.home.DoctorDetailsActivity">
 
+
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:text="Name"
-            android:text="Name"
-            android:layout_marginEnd="310dp" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginStart="195dp" android:layout_alignParentStart="true" android:layout_marginTop="45dp"
-            android:layout_alignParentTop="true" android:id="@+id/textView_name"/>
+            android:text="Name" android:textSize="32dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="350dp" android:id="@+id/textView_name"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Specialization"
+            android:text="Specialization" android:textSize="32dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="390dp" android:id="@+id/textView_spec"/>
 
     <Button android:layout_width="141dp" android:layout_height="wrap_content"
             android:text="Programari"
-            android:id="@+id/test_btn" tools:layout_editor_absoluteY="317dp" tools:layout_editor_absoluteX="172dp"
-            android:layout_marginStart="119dp" android:layout_marginTop="220dp"
-            android:layout_alignParentTop="true" android:layout_alignParentStart="true"/>
+            android:id="@+id/test_btn"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="490dp"/>
     <ImageView
+            android:layout_width="316dp"
+            android:layout_height="316dp" tools:srcCompat="@tools:sample/avatars"
+            android:id="@+id/imageView2" android:src="@drawable/doctor"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="32dp"/>
+    <RatingBar
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" tools:srcCompat="@tools:sample/avatars" android:id="@+id/imageView2"
-            android:layout_alignParentStart="true" android:layout_marginStart="45dp" android:layout_marginTop="36dp"
-            android:layout_alignParentTop="true"/>
-    <TextView
-            android:text="TextView"
-            tools:text="Surname"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/textView_surname" android:layout_alignParentStart="true"
-            android:layout_marginStart="194dp" android:layout_marginTop="73dp" android:layout_alignParentTop="true"/>
+            android:layout_height="wrap_content" android:id="@+id/ratingBar" android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="436dp"/>
 </RelativeLayout>

@@ -17,6 +17,7 @@ class SplashActivity : AppCompatActivity() {
         super.onStart()
         GoogleApiAvailability.getInstance().makeGooglePlayServicesAvailable(this@SplashActivity)
         routeToAppropriatePage()
+
     }
     private fun routeToAppropriatePage() {
         startActivity(intentFor<DoctorDetailsActivity>())
